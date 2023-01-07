@@ -1,0 +1,43 @@
+// Initialize
+var translation = new Map([
+  ['hello', 'merhaba'],
+  ['goodbye', 'hoscakal']
+]);
+console.log("The map after initialization:");
+printTranslation();
+
+// Get the value for a given key
+console.log("The value of the key 'hello': " + translation.get('hello'));
+
+// Add a new element
+translation.set('one', 'bir');
+console.log("The map after 'one' is added:");
+printTranslation();
+
+// Remove an element
+translation.delete('one');
+console.log("The map after 'one' is deleted:");
+printTranslation();
+
+// Modify the value of an existing element
+translation.set('hello', 'selam');
+console.log("The map after 'hello' is changed to 'selam':");
+printTranslation();
+
+// Search for the existence of a key
+console.log("The map includes key 'hello': " + translation.has('hello'));
+
+// Search for the existence of a value
+const values = [...translation.values()];
+const includes = values.includes('selam');
+console.log("The map includes value 'selam': " + includes);
+  
+// Loop through the array
+function printTranslation() {
+  translation.forEach((value, key) => foo(value, key));
+}
+
+// foo function to print the parameters to the console
+function foo(value, key) {
+  console.log(value + ": " + key)
+}
