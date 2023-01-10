@@ -1,5 +1,5 @@
-Emre Tarakcı
-19.11.2022
+- Author: Emre Tarakcı
+- Date: 19.11.2022
 # Programming Languages Examination: Associative Arrays
 ## Introduction
 An associative array is an abstract data type that can keep key-value pairs. The keys must be unique and they are mapped to a single value. However, there may be multiple values that are mapped to different keys. Associative arrays are useful in the cases mapping certain inputs to their correlated outputs, such as a situation where a person's phone number must be mapped to the id of the person.
