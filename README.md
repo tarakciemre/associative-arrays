@@ -801,62 +801,33 @@ To learn about the use of associative arrays in the given languages, I started i
 
 After each step, such as removing an element from the associative array, I have printed the array to see if the changes were applied. When something was wrong, I searched for the problem in Google, and found the solutions in websites such as *stackoverflow*. Simultaneously, in order to create the report, I was taking note of the online sources I have used. To get to know the behaviour of the language better, I have tried to give different types of values to keys such as string and integer. In Rust, for example, the hashmaps allowed only one type of value, while in the others multiple value types were allowed. To write the report, I have copied sample code segments and I have given details about their execution and their syntax. I also made comments on the way their syntax differed from other languages and nuances in them.
 ### Resources
-“Check If a Value Exists in a Map Using JavaScript.” _Bobbyhadz_, https://bobbyhadz.com/blog/javascript-check-if-value-exists-in-map#:~:text=To%20check%20if%20a%20value%20exists%20in%20a%20map%3A&text=Convert%20the%20iterator%20to%20an,the%20array%20and%20false%20otherwise.
-
-“Dart 1 for Everyone.” _O'Reilly Online Learning_, Pragmatic Bookshelf, https://www.oreilly.com/library/view/dart-1-for/9781680500479/f_0023.html.
-
-“Dart Programming - Map.foreach() Function.” _Tutorials Point_, https://www.tutorialspoint.com/dart_programming/dart_programming_map_function_foreach.htm.
-
-Greg HewgillGreg Hewgill 917k178178 gold badges11341134 silver badges12671267 bronze badges, et al. “Delete an Element from a Dictionary.” _Stack Overflow_, 1 July 1958, https://stackoverflow.com/questions/5844672/delete-an-element-from-a-dictionary.
-
-“Hash.” _Class: Hash (Ruby 3.1.2)_, https://ruby-doc.org/core-3.1.2/Hash.html.
-
-hrsma2ihrsma2i 3, et al. “How to Add a New Pair to Map in Dart?” _Stack Overflow_, 1 Feb. 1966, https://stackoverflow.com/questions/53908405/how-to-add-a-new-pair-to-map-in-dart.
-
-“Lua - Tables.” _Tutorials Point_, https://www.tutorialspoint.com/lua/lua_tables.htm.
-
-“Map and Set.” _The Modern JavaScript Tutorial_, 14 Nov. 2022, https://javascript.info/map-set.
-
-_Programming in Lua : 2.5_, https://www.lua.org/pil/2.5.html.
-
-_Programming in Lua : 3.4_, https://www.lua.org/pil/3.4.html.
-
-“Programming-Idioms.” _Initialize a New Map (Associative Array), in Dart_, https://programming-idioms.org/idiom/8/initialize-a-new-map-associative-array/202/dart.
-
-Real Python. “How to Iterate through a Dictionary in Python.” _Real Python_, Real Python, 13 Aug. 2022, https://realpython.com/iterate-through-dictionary-python/.
-
-Sushanth CSSushanth CS 2, et al. “Associative Arrays in Ruby.” _Stack Overflow_, 1 Jan. 1958, https://stackoverflow.com/questions/4266695/associative-arrays-in-ruby.
-
-“Table.find Lua with Code Examples.” _Programming and Tools Blog -_, 23 Sept. 2022, https://www.folkstalk.com/2022/09/table-find-lua-with-code-examples.html.
-
-Varun. “Thispointer.” _ThisPointer_, https://thispointer.com/python-check-if-a-value-exists-in-the-dictionary-3-ways/.
-
-“Array_key_exists.” _Php_, https://www.php.net/manual/en/function.array-key-exists.php.
-
-BenBen 65.1k3737 gold badges8484 silver badges108108 bronze badges, et al. “Deleting an Element from an Array in PHP.” _Stack Overflow_, 1 Feb. 1956, https://stackoverflow.com/questions/369602/deleting-an-element-from-an-array-in-php.
-
-“Crate Assoc[−][Src].” _Assoc - Rust_, https://docs.rs/assoc/latest/assoc/.
-
-Misha MoroshkoMisha Moroshko 161k221221 gold badges494494 silver badges729729 bronze badges, et al. “How to Remove a Key from Hash and Get the Remaining Hash in Ruby/Rails?” _Stack Overflow_, 1 Aug. 1958, https://stackoverflow.com/questions/6227600/how-to-remove-a-key-from-hash-and-get-the-remaining-hash-in-ruby-rails.
-
-Mohit JainMohit Jain 42.5k5656 gold badges165165 silver badges273273 bronze badges, et al. “How to Check If a Specific Key Is Present in a Hash or Not?” _Stack Overflow_, 1 Feb. 1958, https://stackoverflow.com/questions/4528506/how-to-check-if-a-specific-key-is-present-in-a-hash-or-not.
-
-Person. “Printing Hashmaps.” _The Rust Programming Language Forum_, 17 July 2019, https://users.rust-lang.org/t/printing-hashmaps/30384.
-
-_PHP Associative Arrays_, https://www.w3schools.com/php/php_arrays_associative.asp.
-
-“PHP Foreach Loop.” _PHP for Loops_, https://www.w3schools.com/php/php_looping_foreach.asp.
-
-_PHP Functions_, https://www.w3schools.com/php/php_functions.asp.
-
-“Programming-Idioms.” _Check If Map Contains Value, in Rust_, https://programming-idioms.org/idiom/52/check-if-map-contains-value/455/rust.
-
-“Ruby - Methods.” _Tutorials Point_, https://www.tutorialspoint.com/ruby/ruby_methods.htm.
-
-“The Rust Programming Language.” _Functions - The Rust Programming Language_, https://doc.rust-lang.org/book/ch03-03-how-functions-work.html.
-
-“The Rust Programming Language.” _Storing Keys with Associated Values in Hash Maps - The Rust Programming Language_, https://doc.rust-lang.org/beta/book/ch08-03-hash-maps.html.
-
-“String Operators - Manual.” _Php_, https://www.php.net/manual/en/language.operators.string.php.
-
-stssts 2, et al. “How to Get a Specific Output Iterating a Hash in Ruby?” _Stack Overflow_, 1 Oct. 1956, https://stackoverflow.com/questions/1227571/how-to-get-a-specific-output-iterating-a-hash-in-ruby.
+- “Check If a Value Exists in a Map Using JavaScript.” _Bobbyhadz_, https://bobbyhadz.com/blog/javascript-check-if-value-exists-in-map#:~:text=To%20check%20if%20a%20value%20exists%20in%20a%20map%3A&text=Convert%20the%20iterator%20to%20an,the%20array%20and%20false%20otherwise.
+- “Dart 1 for Everyone.” _O'Reilly Online Learning_, Pragmatic Bookshelf, https://www.oreilly.com/library/view/dart-1-for/9781680500479/f_0023.html.
+- “Dart Programming - Map.foreach() Function.” _Tutorials Point_, https://www.tutorialspoint.com/dart_programming/dart_programming_map_function_foreach.htm.
+- Greg HewgillGreg Hewgill 917k178178 gold badges11341134 silver badges12671267 bronze badges, et al. “Delete an Element from a Dictionary.” _Stack Overflow_, 1 July 1958, https://stackoverflow.com/questions/5844672/delete-an-element-from-a-dictionary.
+- “Hash.” _Class: Hash (Ruby 3.1.2)_, https://ruby-doc.org/core-3.1.2/Hash.html.
+- hrsma2ihrsma2i 3, et al. “How to Add a New Pair to Map in Dart?” _Stack Overflow_, 1 Feb. 1966, https://stackoverflow.com/questions/53908405/how-to-add-a-new-pair-to-map-in-dart.
+- “Lua - Tables.” _Tutorials Point_, https://www.tutorialspoint.com/lua/lua_tables.htm.
+- “Map and Set.” _The Modern JavaScript Tutorial_, 14 Nov. 2022, https://javascript.info/map-set.
+- _Programming in Lua : 2.5_, https://www.lua.org/pil/2.5.html.
+- _Programming in Lua : 3.4_, https://www.lua.org/pil/3.4.html.
+- “Programming-Idioms.” _Initialize a New Map (Associative Array), in Dart_, https://programming-idioms.org/idiom/8/initialize-a-new-map-associative-array/202/dart.
+- Real Python. “How to Iterate through a Dictionary in Python.” _Real Python_, Real Python, 13 Aug. 2022, https://realpython.com/iterate-through-dictionary-python/.
+- Sushanth CSSushanth CS 2, et al. “Associative Arrays in Ruby.” _Stack Overflow_, 1 Jan. 1958, https://stackoverflow.com/questions/4266695/associative-arrays-in-ruby.
+- “Table.find Lua with Code Examples.” _Programming and Tools Blog -_, 23 Sept. 2022, https://www.folkstalk.com/2022/09/table-find-lua-with-code-examples.html.
+- Varun. “Thispointer.” _ThisPointer_, https://thispointer.com/python-check-if-a-value-exists-in-the-dictionary-3-ways/.
+- “Array_key_exists.” _Php_, https://www.php.net/manual/en/function.array-key-exists.php.
+- BenBen 65.1k3737 gold badges8484 silver badges108108 bronze badges, et al. “Deleting an Element from an Array in PHP.” _Stack Overflow_, 1 Feb. 1956, https://stackoverflow.com/questions/369602/deleting-an-element-from-an-array-in-php.
+- “Crate Assoc[−][Src].” _Assoc - Rust_, https://docs.rs/assoc/latest/assoc/.
+- Misha MoroshkoMisha Moroshko 161k221221 gold badges494494 silver badges729729 bronze badges, et al. “How to Remove a Key from Hash and Get the Remaining Hash in Ruby/Rails?” _Stack Overflow_, 1 Aug. 1958, https://stackoverflow.com/questions/6227600/how-to-remove-a-key-from-hash-and-get-the-remaining-hash-in-ruby-rails.
+- Mohit JainMohit Jain 42.5k5656 gold badges165165 silver badges273273 bronze badges, et al. “How to Check If a Specific Key Is Present in a Hash or Not?” _Stack Overflow_, 1 Feb. 1958, https://stackoverflow.com/questions/4528506/how-to-check-if-a-specific-key-is-present-in-a-hash-or-not.
+- Person. “Printing Hashmaps.” _The Rust Programming Language Forum_, 17 July 2019, https://users.rust-lang.org/t/printing-hashmaps/30384.
+- _PHP Associative Arrays_, https://www.w3schools.com/php/php_arrays_associative.asp.
+- “PHP Foreach Loop.” _PHP for Loops_, https://www.w3schools.com/php/php_looping_foreach.asp.
+- _PHP Functions_, https://www.w3schools.com/php/php_functions.asp.
+- “Programming-Idioms.” _Check If Map Contains Value, in Rust_, https://programming-idioms.org/idiom/52/check-if-map-contains-value/455/rust.
+- “Ruby - Methods.” _Tutorials Point_, https://www.tutorialspoint.com/ruby/ruby_methods.htm.
+- “The Rust Programming Language.” _Functions - The Rust Programming Language_, https://doc.rust-lang.org/book/ch03-03-how-functions-work.html.
+- “The Rust Programming Language.” _Storing Keys with Associated Values in Hash Maps - The Rust Programming Language_, https://doc.rust-lang.org/beta/book/ch08-03-hash-maps.html.
+- “String Operators - Manual.” _Php_, https://www.php.net/manual/en/language.operators.string.php.
+- stssts 2, et al. “How to Get a Specific Output Iterating a Hash in Ruby?” _Stack Overflow_, 1 Oct. 1956, https://stackoverflow.com/questions/1227571/how-to-get-a-specific-output-iterating-a-hash-in-ruby.
